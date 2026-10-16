@@ -1,8 +1,8 @@
 cask "pipcast@beta" do
   arch arm: "", intel: "-Universal"
-  version "0.1.0-beta.3"
-  sha256 arm: "eef0a4c950cbfb7301394569401963ae21ef124e379d49b155234aa24cd392a5",
-         intel: "44e4d17ad2ef0eeb5f49c9f5e5b189dccd0052b798ae17ff67a88224c239bec0"
+  version "0.1.0-beta.4"
+  sha256 arm: "bee3dd91a48bc3aaaed2ad6434602dde17ce1d58181f4613223c58887f659350",
+         intel: "36e98c549a532b5f746a1b70443203165a4bbd3fc1c5c2c1ac06acf38e2464e5"
   url "https://github.com/mSarheed/pipcast/releases/download/v#{version}/Pipcast#{arch}-#{version}.dmg"
   name "Pipcast Beta"
   desc "Native macOS launcher"
